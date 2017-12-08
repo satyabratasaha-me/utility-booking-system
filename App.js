@@ -25,7 +25,7 @@ class App extends React.Component {
             <tr>
                 <td/>
                 <td>
-                    <Button name='login' value='Login'></Button>
+                    <Button name='login' value='Sbmit'></Button>
                 </td>
              </tr>  
          </div>
