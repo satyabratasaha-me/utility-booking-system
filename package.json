@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot",
+    "start": "./node_modules/.bin/webpack-dev-server --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Satyabrata Saha",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",
