@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 8080;
 var config = {
     entry: './main.js', // entry point
     output: {
@@ -5,7 +6,7 @@ var config = {
        },
     devServer: {
           inline: true, // autorefresh
-          port: 8080 // development port server
+          port: PORT // development port server
        },
     module: {
           loaders: [
